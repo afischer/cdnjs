@@ -1,0 +1,44 @@
+{
+  "name": "jFeed",
+  "description": "jQuery RSS/ATOM feed parser plugin",
+  "version": "1.0",
+  "author": {
+    "name": "Jean-François Hovinne",
+    "url": "http://hovinne.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jfhovinne/jFeed.git"
+  },
+  "bugs": {
+    "web": "https://github.com/jfhovinne/jFeed/issues"
+  },
+  "keywords": [
+    "RSS",
+    "Atom",
+    "jQuery"
+  ],
+  "licenses": [
+    {
+      "name": "MIT",
+      "url": "https://github.com/jfhovinne/jFeed/blob/master/MIT-license.txt"
+    },
+    {
+      "name": "GPL",
+      "url": "https://github.com/jfhovinne/jFeed/blob/master/GPL-license.txt"
+    }
+  ],
+  "homepage": "http://hovinne.com/articles/jfeed-jquery-rss-atom-feed-parser-plugin",
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/jfhovinne/jFeed.git",
+    "fileMap": [
+      {
+        "basePath": "build/dist",
+        "files": [
+          "**/*"
+        ]
+      }
+    ]
+  }
+}
